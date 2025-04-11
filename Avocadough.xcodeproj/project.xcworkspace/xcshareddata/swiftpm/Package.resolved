@@ -1,0 +1,42 @@
+{
+  "originHash" : "03259981fcf6e7a4552c9719d8ece25dbe81644274125acd764745785e716840",
+  "pins" : [
+    {
+      "identity" : "albykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SparrowTek/AlbyKit",
+      "state" : {
+        "branch" : "LightningAddressDetailsProxyService_only",
+        "revision" : "8296af8a46165286a98083b9af095928feae04e9"
+      }
+    },
+    {
+      "identity" : "ldk-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lightningdevkit/ldk-swift",
+      "state" : {
+        "revision" : "e3fa435166527b1089787fd4ab0ce398849fb916",
+        "version" : "0.0.123"
+      }
+    },
+    {
+      "identity" : "nostr-sdk-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rust-nostr/nostr-sdk-swift",
+      "state" : {
+        "revision" : "bc45e5ee6b563b0c365c263dfa0e3ad404d6ff6c",
+        "version" : "0.39.0"
+      }
+    },
+    {
+      "identity" : "vault",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SparrowTek/Vault",
+      "state" : {
+        "revision" : "25df48f62a5382c217cfe67f2a12e6efe8f60ec4",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}
