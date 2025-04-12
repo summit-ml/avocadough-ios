@@ -33,6 +33,7 @@ class WalletState {
     var transactionDataLimit: UInt64 = 20
     var transactionDataOffset: UInt64 = 0
     var errorMessage: LocalizedStringKey?
+    var btcPrice: BTCPrice?
     
     private unowned let parentState: AppState
     
