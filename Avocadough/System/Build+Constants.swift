@@ -10,14 +10,14 @@ import Foundation
 extension Build {
     struct Constants {
         struct UserDefault {
-            static let colorScheme = "com.sparrowtek.avocadough.userDefaults.colorScheme"
-            static let lightThemeColor = "com.sparrowtek.avocadough.userDefaults.lightThemeColor"
-            static let darkThemeColor = "com.sparrowtek.avocadough.userDefaults.darkThemeColor"
+            static let colorScheme = "com.summitml.avocadough.userDefaults.colorScheme"
+            static let lightThemeColor = "com.summitml.avocadough.userDefaults.lightThemeColor"
+            static let darkThemeColor = "com.summitml.avocadough.userDefaults.darkThemeColor"
         }
         
         struct Theme {
-            static let light = "com.sparrowtek.avocadough.theme.light"
-            static let dark = "com.sparrowtek.avocadough.theme.dark"
+            static let light = "com.summitml.avocadough.theme.light"
+            static let dark = "com.summitml.avocadough.theme.dark"
         }
     }
 }

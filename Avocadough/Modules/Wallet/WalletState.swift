@@ -49,6 +49,10 @@ class WalletState {
         self.parentState = parentState
     }
     
+    func isCanvasSetBTCPrice() {
+        btcPrice = BTCPrice(amount: "85000", lastUpdatedAtInUtcEpochSeconds: "", currency: "USD", version: "1", base: "BTC")
+    }
+    
     func closeSheet() {
         sheet = nil
     }

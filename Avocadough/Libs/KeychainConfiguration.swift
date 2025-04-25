@@ -8,7 +8,7 @@
 import Vault
 
 extension KeychainConfiguration {
-    static let serviceName = "com.sparrowtek.avocadough"
+    static let serviceName = "com.summitml.avocadough"
     // TODO: add an access group
     static let nwcSecret = KeychainConfiguration(serviceName: serviceName, accessGroup: nil, accountName: "\(serviceName).nwcSecret")
 }

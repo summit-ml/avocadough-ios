@@ -12,7 +12,7 @@ extension NWPathMonitor {
         AsyncStream { continuation in
             pathUpdateHandler = { continuation.yield($0) }
             continuation.onTermination = { [weak self] _ in self?.cancel() }
-            start(queue: DispatchQueue(label: "com.sparrowtek.Avocadough.NSPathMonitor.paths"))
+            start(queue: DispatchQueue(label: "com.summitml.Avocadough.NSPathMonitor.paths"))
         }
     }
 }
